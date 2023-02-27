@@ -2,6 +2,7 @@
  * Create a DOM element.
  * @param {object} options The options to create the element.
  * @returns {HTMLElement} The DOM element.
+ * @link https://github.com/tomdevisser/tomdevisser-theme/blob/main/src/js/utils.js
  */
 const createDOMElement = (options) => {
 	const { type, classes, attributes, innerHTML, children } = options;
